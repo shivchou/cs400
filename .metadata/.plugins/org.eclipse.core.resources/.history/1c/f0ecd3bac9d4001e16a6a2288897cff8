@@ -1,0 +1,30 @@
+import java.io.IOException;
+import java.util.List;
+
+public class Backend implements BackendInterface{
+
+	@Override
+	public void readData(String filename) throws IOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<String> getRange(int low, int high) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<String> filterFastSongs(int minSpeed) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<String> fiveMostEnergetic() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

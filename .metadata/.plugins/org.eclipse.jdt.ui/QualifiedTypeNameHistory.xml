@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="IterableRedBlackTree.Anon"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.testfx.framework.junit5.ApplicationTest"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.Pane"/>
+    <fullyQualifiedTypeName name="org.testfx.api.FxAssert"/>
+    <fullyQualifiedTypeName name="org.testfx.matcher.control.LabeledMatchers"/>
+    <fullyQualifiedTypeName name="org.testfx.matcher.control.ButtonMatchers"/>
+    <fullyQualifiedTypeName name="org.testfx.util.NodeQueryUtils"/>
+    <fullyQualifiedTypeName name="com.apple.eawt.Application"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
+    <fullyQualifiedTypeName name="javafx.application.Platform"/>
+    <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;o&apos; from expression &apos;new Song(&quot;Try Sleeping with a Broken Heart&quot;,&quot;Alicia Keys&quot;,&quot;hip hop&quot;,2010,111,82,50,-5,13)&apos;&#x0A;- Original project: &apos;p105_role_code&apos;&#x0A;- Variable name: &apos;o&apos;&#x0A;- Destination method: &apos;BackendTests.testDanceabilityRange()&apos;&#x0A;- Variable expression: &apos;new Song(&quot;Try Sleeping with a Broken Heart&quot;,&quot;Alicia Keys&quot;,&quot;hip hop&quot;,2010,111,82,50,-5,13)&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;o&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;{BackendTests.java" name="o" replace="true" selection="683 101" stamp="1709062533992" varType="false" version="1.0"/>
+</session>

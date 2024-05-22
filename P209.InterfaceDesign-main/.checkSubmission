@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+if [[ -f /libs/junit5.jar ]]; then
+    cp /libs/junit5.jar ../junit5.jar
+fi
+
+if [[ -d /javafx  ]]; then
+    mv /javafx ../javafx
+fi
+
+if [[ $(wc -l < BackendPlaceholder.java) -lt 18 ]]; then
+    echo "Warning mid-week Submission Incomplete: no additional method added to BackendPlaceholder.java"
+    exit 1
+fi
+
+if [[ ! -f BackendInterface.java  ]]; then
+    echo "Warning Submission Incomplete: BackendInterface.java not found"
+    exit 1
+fi
+
+if [[ ! -f FrontendInterface.java  ]]; then
+    echo "Warning Submission Incomplete: FrontendInterface.java not found"
+    exit 1
+fi
+
+rm -f *.class
+
+if ! javac --module-path ../javafx/lib/ --add-modules javafx.controls App.java; then
+    echo "Warning: Submission does not compile"
+    exit 1
+fi
+
+echo "Submission Passed Basic Scan"
+exit 0

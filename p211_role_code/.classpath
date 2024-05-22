@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/junit5fx.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="/Users/shivani/Downloads/javafx-sdk-22/lib/javafx.web.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
